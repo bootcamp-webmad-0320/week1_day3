@@ -1,0 +1,229 @@
+
+/* ---- GENERAL STYLING ---- */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+section {
+    padding: 150px 0
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 2.1em;
+    line-height: 1.4;
+}
+
+
+
+/* ---- NAVIGATION ---- */
+
+.menu {
+    border-bottom: 1px solid #d6d6d6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    color: white;
+    transition: background .1s;
+    z-index: 900;
+}
+
+.menu.filled {
+    background: white;
+    color: #222;
+}
+
+.menu .logo {
+    filter: brightness(20);
+    transition: filter .1s;
+}
+
+.menu.filled .logo {
+    filter: brightness(1);
+}
+
+.navicon {
+    width: 24px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 5px 0;
+    font-size: .9em;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu li a {
+    color: inherit
+}
+
+
+/* ---- HERO SECTION ---- */
+
+.hero {
+    text-align: center;
+    background: url('../img/background-sea.jpg') no-repeat center / cover;
+    color: white;
+    padding: 160px 0 100px 0
+}
+
+.hero p {
+    margin: 30px 0
+}
+
+
+
+/* ---- BUY NOW SECTION ---- */
+
+.buy-now .button {
+    margin-top: 40px;
+}
+
+.buy-now img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+
+/* ---- FEATURES SECTION ---- */
+
+.features {
+    text-align: center;
+    background: url('../img/caja-de-langostino-vivo-en-hielo-huelvamar.jpg') no-repeat center / cover;
+}
+
+.features hr {
+    width: 300px;
+    border-color: black;
+    margin: 70px auto;
+}
+
+.features article {
+    margin-bottom: 40px;
+}
+
+.features svg {
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/* ---- SPONSORS SECTION ---- */
+
+.sponsors {
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.sponsors p {
+    margin-bottom: 50px;
+}
+
+.sponsors img {
+    width: 60%;
+}
+
+
+
+/* ---- PROCESS SECTION ---- */
+
+.process {
+    background: url('../img/barco-fondo-mar.jpg') no-repeat left / cover;
+}
+
+.process .button {
+    margin-top: 60px
+}
+
+
+
+
+
+/* ---- CTA SECTION ---- */
+
+.cta {
+    background-color: #272a2b;
+    color: white;
+    padding: 60px 0
+}
+
+.cta .button {
+    width: auto;
+    margin-top: 40px;
+}
+
+.cta h2 {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* ---- BUTTONS ---- */
+
+.button {
+    border: 1px solid;
+    display: block;
+    width: 200px;
+    padding: 10px 0;
+    font-size: .8em;
+    letter-spacing: 1px;
+    text-align: center;
+    color: inherit;
+    transition: all .5s
+}
+
+.button.darkhover:hover {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+.button.clearhover:hover {
+    background-color: #fff;
+    color: #222;
+    text-decoration: none;
+}
+
+
+.button.centered {
+    margin: 0 auto;
+}
+
+
+@media (min-width: 768px) {
+
+    .menu nav {
+        display: block;
+    }
+
+    .navicon {
+        display: none;
+    }
+}

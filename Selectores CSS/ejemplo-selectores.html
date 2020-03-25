@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplos selectores</title>
+    <style>
+        section>p {
+            color: red
+        }
+
+        [class^='ball'] {
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            display: inline-block;
+            margin: 20px;
+            border-radius: 50%;
+        }
+
+        .ball1 {
+            background-color: red;
+        }
+
+        .ball2 {
+            background-color: green;
+        }
+
+        .ball3 {
+            background-color: blue;
+        }
+
+
+        .paragraphs p:nth-child(even) {
+            background: rgba(0, 0, 0, .1)
+        }
+
+        .paragraphs p:nth-child(3) {
+            background: blue
+        }
+
+        .paragraphs p:nth-child(2n+1) {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h2>Soy un título</h2>
+            <p>Soy un descendiente directo de <em>section</em> y el primer elemento adyacente deh <em>h2</em></p>
+            <p>Yo también</p>
+            <article>
+                <p>Yo no soy descendiente directo</p>
+            </article>
+        </section>
+
+        <section>
+            <div class="ball1"></div>
+            <div class="ball2"></div>
+            <div class="ball3"></div>
+            <div class="ball4"></div>
+            <div class="ball5"></div>
+            <div class="ball6"></div>
+        </section>
+
+        <section class="paragraphs">
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+            <p>Soy un párrafo de la sección <em>paragraphs</em></p>
+
+        </section>
+    </main>
+</body>
+
+</html>

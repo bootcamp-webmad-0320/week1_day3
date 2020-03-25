@@ -1,0 +1,60 @@
+
+* {										/* -- selector universal -- */
+	padding: 0;
+}
+
+h2 { 									/* -- selector de etiqueta -- */
+	color: red; 
+}  
+
+.grande {								/* -- selector de clase -- */
+	color: red;
+}
+
+#principal {							/* -- selector de id -- */
+	color: red;					
+}
+
+h2, h3 {								/* -- selector múltiple -- */
+	color: red;
+}
+
+p.grande {								/* -- selector combinado / coincidente -- */
+	color: red;
+}
+
+article p {								/* -- selector descendiente -- */
+	color: red;
+}
+
+article > p {							/* -- selector descendiente directo -- */
+	color: red;
+}
+
+h3 + p {								/* -- selector adyacente -- */
+	color: red;
+}
+
+.caja:nth-child(numero) {				/* -- selector de ordenación (la .caja número x) --*/
+	color: red;
+}
+
+
+/* -- selectores de atributo -- */
+
+a[title="Acceder"] {					/* -- el valor es igual a -- */				
+	color: red;
+}
+
+p[class*="grand"] {						/* -- el valor es o contiene -- */
+	color: red;
+}
+
+a[href^="http://www.google.es/"] {		/* -- el valor comienza con -- */	
+	color: red;
+}
+
+a[class$="red"] {						/* -- el valor termina con -- */	
+	color: red;
+}
+
