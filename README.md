@@ -1,5 +1,8 @@
 # week1_day3
 
+Vídeo de la clase disponible en [este enlace](https://zoom.us/rec/share/w-5wBZPctUZOBYnW6Xzkfqk_PLznaaa82nNMrKEKz0xBQ1jumG8FAslrQQe3WxF8)
+
+
 ## Contenidos
 
 > CSS | Selectors
